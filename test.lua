@@ -33,7 +33,7 @@ local Tabs = {
     Glass = Window:Tab({ Title = "Glass Bridge", Icon = "grid-2x2" }),
     Mingle = Window:Tab({ Title = "Mingle", Icon = "tent" }),
     Random = Window:Tab({ Title = "Random Features", Icon = "dices" }),
-    Rebel = Window:Tab({ Title = "Rebel", Icon = "shield-user" }),
+    Rebel = Window:Tab({ Title = "Rebel", Icon = "crown" }),
 }
 
 Tabs.Glass:Toggle({
@@ -46,7 +46,7 @@ Tabs.Glass:Toggle({
 
 
 Tabs.Glass:Toggle({
-    Title = "Red Light God Mode",
+    Title = "God Mode",
     Default = false,
     Callback = function()
         loadstring(game:HttpGet("https://raw.githubusercontent.com/ringtaa/NEWTPTRAIN.github.io/refs/heads/main/TRAIN.LUA"))()
@@ -54,14 +54,14 @@ Tabs.Glass:Toggle({
 })
 
 Tabs.Glass:Button({
-    Title = "Teleport to End",
+    Title = "Aimbot",
     Callback = function()
         loadstring(game:HttpGet("https://raw.githubusercontent.com/ringtaa/castletpfast.github.io/refs/heads/main/FASTCASTLE.lua"))()
     end,
 })
 
 Tabs.Glass:Button({
-    Title = "Help Player",
+    Title = "Auto Complete Dalgona",
     Callback = function()
         loadstring(game:HttpGet("https://raw.githubusercontent.com/ringtaa/castletpfast.github.io/refs/heads/main/FASTCASTLE.lua"))()
     end,
