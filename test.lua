@@ -46,7 +46,7 @@ Tabs.Glass:Toggle({
 
 
 Tabs.Glass:Toggle({
-    Title = "God Mode",
+    Title = "Npc Lock",
     Default = false,
     Callback = function()
         loadstring(game:HttpGet("https://raw.githubusercontent.com/ringtaa/NEWTPTRAIN.github.io/refs/heads/main/TRAIN.LUA"))()
@@ -54,14 +54,14 @@ Tabs.Glass:Toggle({
 })
 
 Tabs.Glass:Button({
-    Title = "Aimbot",
+    Title = "Auto Choke",
     Callback = function()
         loadstring(game:HttpGet("https://raw.githubusercontent.com/ringtaa/castletpfast.github.io/refs/heads/main/FASTCASTLE.lua"))()
     end,
 })
 
 Tabs.Glass:Button({
-    Title = "Auto Complete Dalgona",
+    Title = "Auto Kill Hiders",
     Callback = function()
         loadstring(game:HttpGet("https://raw.githubusercontent.com/ringtaa/castletpfast.github.io/refs/heads/main/FASTCASTLE.lua"))()
     end,
