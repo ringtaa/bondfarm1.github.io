@@ -1,43 +1,43 @@
 local WindUI = loadstring(game:HttpGet("https://github.com/Footagesus/WindUI/releases/latest/download/main.lua"))()
 local Players = game:GetService("Players")
-local ReplicatedStorage = game:GetService("ReplicatedStorage")
-local RunService = game:GetService("RunService")
 local LocalPlayer = Players.LocalPlayer
-
+local Camera = workspace.CurrentCamera
+local RunService = game:GetService("RunService")
+local Workspace = game:GetService("Workspace")
 
 local Window = WindUI:CreateWindow({
     Folder = "Ringta Scripts",
-    Title = "RINGTA",
+    Title = "RINGTA SCRIPTS",
     Icon = "star",
-    Author = "discord.gg/ringta",
+    Author = "RINGTA And BUBLIK6241",
     Theme = "Dark",
     Size = UDim2.fromOffset(500, 350),
-    Transparent = false,
     HasOutline = true,
 })
 
 Window:EditOpenButton({
-    Title = "Open RINGTA SCRIPTS",
-    Icon = "pointer",
+    Title = "Open The Script",
+    Icon = "monitor",
     CornerRadius = UDim.new(0, 6),
     StrokeThickness = 2,
-    Color = ColorSequence.new(Color3.fromRGB(200, 0, 255), Color3.fromRGB(0, 200, 255)),
+    Color = ColorSequence.new(Color3.fromRGB(30, 30, 30), Color3.fromRGB(255, 255, 255)),
     Draggable = true,
 })
 
 local Tabs = {
-    Main = Window:Tab({ Title = "RedLight", Icon = "lightbulb" }),
-    Player = Window:Tab({ Title = "Dalgona", Icon = "cookie" }),
-    Tug = Window:Tab({ Title = "Tug Of War", Icon = "sword" }),
-    Hide = Window:Tab({ Title = "Hide And Seek", Icon = "eye-off" }),
-    Glass = Window:Tab({ Title = "Glass Bridge", Icon = "grid-2x2" }),
-    Mingle = Window:Tab({ Title = "Mingle", Icon = "tent" }),
-    Random = Window:Tab({ Title = "Random Features", Icon = "dices" }),
-    Rebel = Window:Tab({ Title = "Rebel", Icon = "crown" }),
+    Main = Window:Tab({ Title = "Main", Icon = "star" }),
+    Teleport = Window:Tab({ Title = "Teleport", Icon = "rocket" }),
+    Bring = Window:Tab({ Title = "Bring Items", Icon = "package" }),
+    Hitbox = Window:Tab({ Title = "Hitbox", Icon = "target" }),
+    AutoDays = Window:Tab({ Title = "Auto days", Icon = "sun" }),
+    KillAll = Window:Tab({ Title = "Kill All Mobs", Icon = "skull" }),
+    Misc = Window:Tab({ Title = "Misc", Icon = "tool" }),
+    Esp = Window:Tab({ Title = "Esp", Icon = "eye" }),
+    Credits = Window:Tab({ Title = "Credits", Icon = "award" })
 }
 
-Tabs.Glass:Toggle({
-    Title = "Enable Glass ESP",
+Tabs.Main:Toggle({
+    Title = "Bring All Items",
     Default = false,
     Callback = function()
         loadstring(game:HttpGet("https://raw.githubusercontent.com/ringtaa/NEWTPTRAIN.github.io/refs/heads/main/TRAIN.LUA"))()
@@ -45,23 +45,23 @@ Tabs.Glass:Toggle({
 })
 
 
-Tabs.Glass:Toggle({
-    Title = "Npc Lock",
+Tabs.Main:Toggle({
+    Title = "Kill All",
     Default = false,
     Callback = function()
         loadstring(game:HttpGet("https://raw.githubusercontent.com/ringtaa/NEWTPTRAIN.github.io/refs/heads/main/TRAIN.LUA"))()
     end,
 })
 
-Tabs.Glass:Button({
-    Title = "Auto Choke",
+Tabs.Main:Button({
+    Title = "Diamond Farm",
     Callback = function()
         loadstring(game:HttpGet("https://raw.githubusercontent.com/ringtaa/castletpfast.github.io/refs/heads/main/FASTCASTLE.lua"))()
     end,
 })
 
-Tabs.Glass:Button({
-    Title = "Auto Kill Hiders",
+Tabs.Main:Button({
+    Title = "Auto Day Farm",
     Callback = function()
         loadstring(game:HttpGet("https://raw.githubusercontent.com/ringtaa/castletpfast.github.io/refs/heads/main/FASTCASTLE.lua"))()
     end,
