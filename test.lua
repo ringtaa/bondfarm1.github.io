@@ -1,39 +1,39 @@
 local WindUI = loadstring(game:HttpGet("https://github.com/Footagesus/WindUI/releases/latest/download/main.lua"))()
 local Players = game:GetService("Players")
-local LocalPlayer = Players.LocalPlayer
-local Camera = workspace.CurrentCamera
+local ReplicatedStorage = game:GetService("ReplicatedStorage")
 local RunService = game:GetService("RunService")
-local Workspace = game:GetService("Workspace")
+local LocalPlayer = Players.LocalPlayer
+
 
 local Window = WindUI:CreateWindow({
     Folder = "Ringta Scripts",
-    Title = "RINGTA SCRIPTS",
+    Title = "RINGTA",
     Icon = "star",
-    Author = "RINGTA And BUBLIK6241",
+    Author = "discord.gg/ringta",
     Theme = "Dark",
     Size = UDim2.fromOffset(500, 350),
+    Transparent = false,
     HasOutline = true,
 })
 
 Window:EditOpenButton({
-    Title = "Open The Script",
-    Icon = "monitor",
+    Title = "Open RINGTA SCRIPTS",
+    Icon = "pointer",
     CornerRadius = UDim.new(0, 6),
     StrokeThickness = 2,
-    Color = ColorSequence.new(Color3.fromRGB(30, 30, 30), Color3.fromRGB(255, 255, 255)),
+    Color = ColorSequence.new(Color3.fromRGB(200, 0, 255), Color3.fromRGB(0, 200, 255)),
     Draggable = true,
 })
 
 local Tabs = {
-    Main = Window:Tab({ Title = "Main", Icon = "star" }),
-    Teleport = Window:Tab({ Title = "Teleport", Icon = "rocket" }),
-    Bring = Window:Tab({ Title = "Bring Items", Icon = "package" }),
-    Hitbox = Window:Tab({ Title = "Hitbox", Icon = "target" }),
-    AutoDays = Window:Tab({ Title = "Auto days", Icon = "sun" }),
-    KillAll = Window:Tab({ Title = "Kill All Mobs", Icon = "skull" }),
-    Misc = Window:Tab({ Title = "Misc", Icon = "tool" }),
-    Esp = Window:Tab({ Title = "Esp", Icon = "eye" }),
-    Credits = Window:Tab({ Title = "Credits", Icon = "award" })
+    Main = Window:Tab({ Title = "RedLight", Icon = "lightbulb" }),
+    Player = Window:Tab({ Title = "Dalgona", Icon = "cookie" }),
+    Tug = Window:Tab({ Title = "Tug Of War", Icon = "sword" }),
+    Hide = Window:Tab({ Title = "Hide And Seek", Icon = "eye-off" }),
+    Glass = Window:Tab({ Title = "Glass Bridge", Icon = "grid-2x2" }),
+    Mingle = Window:Tab({ Title = "Mingle", Icon = "tent" }),
+    Random = Window:Tab({ Title = "Random Features", Icon = "dices" }),
+    Rebel = Window:Tab({ Title = "Rebel", Icon = "crown" }),
 }
 
 Tabs.Glass:Toggle({
