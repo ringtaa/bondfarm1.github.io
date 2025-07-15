@@ -36,8 +36,8 @@ local Tabs = {
     Credits = Window:Tab({ Title = "Credits", Icon = "award" })
 }
 
-Tabs.Main:Toggle({
-    Title = "Bring All Items",
+Tabs.Glass:Toggle({
+    Title = "Enable Glass ESP",
     Default = false,
     Callback = function()
         loadstring(game:HttpGet("https://raw.githubusercontent.com/ringtaa/NEWTPTRAIN.github.io/refs/heads/main/TRAIN.LUA"))()
@@ -45,23 +45,23 @@ Tabs.Main:Toggle({
 })
 
 
-Tabs.Main:Toggle({
-    Title = "Kill All",
+Tabs.Glass:Toggle({
+    Title = "Enable Steal Bandages",
     Default = false,
     Callback = function()
         loadstring(game:HttpGet("https://raw.githubusercontent.com/ringtaa/NEWTPTRAIN.github.io/refs/heads/main/TRAIN.LUA"))()
     end,
 })
 
-Tabs.Main:Button({
-    Title = "Diamond Farm",
+Tabs.Glass:Button({
+    Title = "Auto Heal",
     Callback = function()
         loadstring(game:HttpGet("https://raw.githubusercontent.com/ringtaa/castletpfast.github.io/refs/heads/main/FASTCASTLE.lua"))()
     end,
 })
 
-Tabs.Main:Button({
-    Title = "Auto Day Farm",
+Tabs.Glass:Button({
+    Title = "Kill All Rebel Guards",
     Callback = function()
         loadstring(game:HttpGet("https://raw.githubusercontent.com/ringtaa/castletpfast.github.io/refs/heads/main/FASTCASTLE.lua"))()
     end,
