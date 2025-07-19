@@ -42,7 +42,7 @@ local Tabs = {
 
 
 Tabs.Jump:Toggle({
-    Title = "Enable Glass ESP",
+    Title = "Enable Godmode Jump Rope",
     Default = false,
     Callback = function()
         loadstring(game:HttpGet("https://raw.githubusercontent.com/ringtaa/NEWTPTRAIN.github.io/refs/heads/main/TRAIN.LUA"))()
@@ -51,7 +51,7 @@ Tabs.Jump:Toggle({
 
 
 Tabs.Jump:Toggle({
-    Title = "Enable Steal Bandages",
+    Title = "Enable Fling All Players",
     Default = false,
     Callback = function()
         loadstring(game:HttpGet("https://raw.githubusercontent.com/ringtaa/NEWTPTRAIN.github.io/refs/heads/main/TRAIN.LUA"))()
@@ -59,14 +59,14 @@ Tabs.Jump:Toggle({
 })
 
 Tabs.Jump:Button({
-    Title = "Auto Heal",
+    Title = "Auto Finish Jump Rope",
     Callback = function()
         loadstring(game:HttpGet("https://raw.githubusercontent.com/ringtaa/castletpfast.github.io/refs/heads/main/FASTCASTLE.lua"))()
     end,
 })
 
 Tabs.Jump:Button({
-    Title = "Kill All Rebel Guards",
+    Title = "Troll Other Players Jump Rope",
     Callback = function()
         loadstring(game:HttpGet("https://raw.githubusercontent.com/ringtaa/castletpfast.github.io/refs/heads/main/FASTCASTLE.lua"))()
     end,
