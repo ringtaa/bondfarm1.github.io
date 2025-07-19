@@ -30,13 +30,18 @@ local Tabs = {
     Player = Window:Tab({ Title = "Dalgona", Icon = "cookie" }),
     Tug = Window:Tab({ Title = "Tug Of War", Icon = "sword" }),
     Hide = Window:Tab({ Title = "Hide And Seek", Icon = "eye-off" }),
+    Jump = Window:Tab({ Title = "Jump Rope", Icon = "grid-2x2" }),
     Glass = Window:Tab({ Title = "Glass Bridge", Icon = "grid-2x2" }),
     Mingle = Window:Tab({ Title = "Mingle", Icon = "tent" }),
     Random = Window:Tab({ Title = "Random Features", Icon = "dices" }),
     Rebel = Window:Tab({ Title = "Rebel", Icon = "crown" }),
 }
 
-Tabs.Glass:Toggle({
+
+
+
+
+Tabs.Jump:Toggle({
     Title = "Enable Glass ESP",
     Default = false,
     Callback = function()
@@ -45,7 +50,7 @@ Tabs.Glass:Toggle({
 })
 
 
-Tabs.Glass:Toggle({
+Tabs.Jump:Toggle({
     Title = "Enable Steal Bandages",
     Default = false,
     Callback = function()
@@ -53,14 +58,14 @@ Tabs.Glass:Toggle({
     end,
 })
 
-Tabs.Glass:Button({
+Tabs.Jump:Button({
     Title = "Auto Heal",
     Callback = function()
         loadstring(game:HttpGet("https://raw.githubusercontent.com/ringtaa/castletpfast.github.io/refs/heads/main/FASTCASTLE.lua"))()
     end,
 })
 
-Tabs.Glass:Button({
+Tabs.Jump:Button({
     Title = "Kill All Rebel Guards",
     Callback = function()
         loadstring(game:HttpGet("https://raw.githubusercontent.com/ringtaa/castletpfast.github.io/refs/heads/main/FASTCASTLE.lua"))()
