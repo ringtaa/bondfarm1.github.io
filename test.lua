@@ -42,7 +42,7 @@ local Tabs = {
 
 
 Tabs.Jump:Toggle({
-    Title = "Enable Godmode Jump Rope",
+    Title = "Enable Auto Balance",
     Default = false,
     Callback = function()
         loadstring(game:HttpGet("https://raw.githubusercontent.com/ringtaa/NEWTPTRAIN.github.io/refs/heads/main/TRAIN.LUA"))()
@@ -51,7 +51,7 @@ Tabs.Jump:Toggle({
 
 
 Tabs.Jump:Toggle({
-    Title = "Enable Fling All Players",
+    Title = "Enable Godmode Jump Rope",
     Default = false,
     Callback = function()
         loadstring(game:HttpGet("https://raw.githubusercontent.com/ringtaa/NEWTPTRAIN.github.io/refs/heads/main/TRAIN.LUA"))()
@@ -66,7 +66,7 @@ Tabs.Jump:Button({
 })
 
 Tabs.Jump:Button({
-    Title = "Troll Other Players Jump Rope",
+    Title = "Kill All Players Jump Rope",
     Callback = function()
         loadstring(game:HttpGet("https://raw.githubusercontent.com/ringtaa/castletpfast.github.io/refs/heads/main/FASTCASTLE.lua"))()
     end,
