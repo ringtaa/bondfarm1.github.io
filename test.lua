@@ -42,7 +42,7 @@ local Tabs = {
 
 
 Tabs.Jump:Toggle({
-    Title = "Enable Auto Balance",
+    Title = "Enable Freeze Rope",
     Default = false,
     Callback = function()
         loadstring(game:HttpGet("https://raw.githubusercontent.com/ringtaa/NEWTPTRAIN.github.io/refs/heads/main/TRAIN.LUA"))()
@@ -66,7 +66,7 @@ Tabs.Jump:Button({
 })
 
 Tabs.Jump:Button({
-    Title = "Kill All Players Jump Rope",
+    Title = "Kill All Players Lights Out",
     Callback = function()
         loadstring(game:HttpGet("https://raw.githubusercontent.com/ringtaa/castletpfast.github.io/refs/heads/main/FASTCASTLE.lua"))()
     end,
