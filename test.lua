@@ -42,7 +42,7 @@ local Tabs = {
 
 
 Tabs.Jump:Toggle({
-    Title = "Enable Freeze Rope",
+    Title = "Enable Bypass Anticheat",
     Default = false,
     Callback = function()
         loadstring(game:HttpGet("https://raw.githubusercontent.com/ringtaa/NEWTPTRAIN.github.io/refs/heads/main/TRAIN.LUA"))()
@@ -51,7 +51,7 @@ Tabs.Jump:Toggle({
 
 
 Tabs.Jump:Toggle({
-    Title = "Enable Godmode Jump Rope",
+    Title = "Enable Fly",
     Default = false,
     Callback = function()
         loadstring(game:HttpGet("https://raw.githubusercontent.com/ringtaa/NEWTPTRAIN.github.io/refs/heads/main/TRAIN.LUA"))()
@@ -59,14 +59,14 @@ Tabs.Jump:Toggle({
 })
 
 Tabs.Jump:Button({
-    Title = "Auto Finish Jump Rope",
+    Title = "Auto Balance Jump Rope",
     Callback = function()
         loadstring(game:HttpGet("https://raw.githubusercontent.com/ringtaa/castletpfast.github.io/refs/heads/main/FASTCASTLE.lua"))()
     end,
 })
 
 Tabs.Jump:Button({
-    Title = "Kill All Players Lights Out",
+    Title = "Enable Godmode",
     Callback = function()
         loadstring(game:HttpGet("https://raw.githubusercontent.com/ringtaa/castletpfast.github.io/refs/heads/main/FASTCASTLE.lua"))()
     end,
