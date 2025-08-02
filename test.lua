@@ -59,14 +59,14 @@ Tabs.Jump:Toggle({
 })
 
 Tabs.Jump:Button({
-    Title = "Auto Balance Jump Rope",
+    Title = "Help Players Jump Rope",
     Callback = function()
         loadstring(game:HttpGet("https://raw.githubusercontent.com/ringtaa/castletpfast.github.io/refs/heads/main/FASTCASTLE.lua"))()
     end,
 })
 
 Tabs.Jump:Button({
-    Title = "Enable Godmode",
+    Title = "Auto Balance Jump Rope",
     Callback = function()
         loadstring(game:HttpGet("https://raw.githubusercontent.com/ringtaa/castletpfast.github.io/refs/heads/main/FASTCASTLE.lua"))()
     end,
