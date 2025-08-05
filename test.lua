@@ -59,7 +59,7 @@ Tabs.Jump:Toggle({
 })
 
 Tabs.Jump:Button({
-    Title = "Help Players Jump Rope",
+    Title = "Kill Aura Fixed",
     Callback = function()
         loadstring(game:HttpGet("https://raw.githubusercontent.com/ringtaa/castletpfast.github.io/refs/heads/main/FASTCASTLE.lua"))()
     end,
