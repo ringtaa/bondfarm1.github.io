@@ -59,7 +59,7 @@ Tabs.Jump:Toggle({
 })
 
 Tabs.Jump:Button({
-    Title = "Sky Squid Instant Grab Poles",
+    Title = "Delete Rope Jump Rope",
     Callback = function()
         loadstring(game:HttpGet("https://raw.githubusercontent.com/ringtaa/castletpfast.github.io/refs/heads/main/FASTCASTLE.lua"))()
     end,
