@@ -59,7 +59,7 @@ Tabs.Jump:Toggle({
 })
 
 Tabs.Jump:Button({
-    Title = "TP TO ALL PEABERT",
+    Title = "Free Lighter Dalgona",
     Callback = function()
         loadstring(game:HttpGet("https://raw.githubusercontent.com/ringtaa/castletpfast.github.io/refs/heads/main/FASTCASTLE.lua"))()
     end,
