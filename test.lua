@@ -59,14 +59,14 @@ Tabs.Jump:Toggle({
 })
 
 Tabs.Jump:Button({
-    Title = "Trap All Players Spikes",
+    Title = "Tp To All Peaberts",
     Callback = function()
         loadstring(game:HttpGet("https://raw.githubusercontent.com/ringtaa/castletpfast.github.io/refs/heads/main/FASTCASTLE.lua"))()
     end,
 })
 
 Tabs.Jump:Button({
-    Title = "Infinite Rerolls",
+    Title = "Playable Guards Kil All",
     Callback = function()
         loadstring(game:HttpGet("https://raw.githubusercontent.com/ringtaa/castletpfast.github.io/refs/heads/main/FASTCASTLE.lua"))()
     end,
