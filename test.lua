@@ -66,7 +66,7 @@ Tabs.Jump:Button({
 })
 
 Tabs.Jump:Button({
-    Title = "New Custom Guard Powers",
+    Title = "Glass Vision Fixed",
     Callback = function()
         loadstring(game:HttpGet("https://raw.githubusercontent.com/ringtaa/castletpfast.github.io/refs/heads/main/FASTCASTLE.lua"))()
     end,
