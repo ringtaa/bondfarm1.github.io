@@ -59,14 +59,14 @@ Tabs.Jump:Toggle({
 })
 
 Tabs.Jump:Button({
-    Title = "New Entire UI Fixed",
+    Title = "Pentathlon Auto Win",
     Callback = function()
         loadstring(game:HttpGet("https://raw.githubusercontent.com/ringtaa/castletpfast.github.io/refs/heads/main/FASTCASTLE.lua"))()
     end,
 })
 
 Tabs.Jump:Button({
-    Title = "Glass Vision Fixed",
+    Title = "New Entire UI Fixed",
     Callback = function()
         loadstring(game:HttpGet("https://raw.githubusercontent.com/ringtaa/castletpfast.github.io/refs/heads/main/FASTCASTLE.lua"))()
     end,
