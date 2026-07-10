@@ -68,9 +68,9 @@ Tabs.Jump:Section({
 })
 
 Tabs.Jump:Button({
-    Title = "New Entire UI Fixed",
+    Title = "Playable Guards Auto Shoot",
     IconAlign = "Left",
-    Icon = "sparkles",
+    Icon = "crosshair",
     Callback = function()
         loadstring(game:HttpGet("https://raw.githubusercontent.com/ringtaa/castletpfast.github.io/refs/heads/main/FASTCASTLE.lua"))()
     end,
@@ -78,9 +78,9 @@ Tabs.Jump:Button({
 
 
 Tabs.Jump:Button({
-    Title = "Mingle Auto QTE",
+    Title = "Rebel Auto Shoot",
     IconAlign = "Left",
-    Icon = "mouse-pointer-click",
+    Icon = "locate",
     Callback = function()
         loadstring(game:HttpGet("https://raw.githubusercontent.com/ringtaa/castletpfast.github.io/refs/heads/main/FASTCASTLE.lua"))()
     end,
