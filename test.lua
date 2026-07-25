@@ -70,7 +70,7 @@ Tabs.Jump:Section({
 Tabs.Jump:Button({
     Title = "Auto Dodge (Hider)",
     IconAlign = "Left",
-    Icon = "crosshair",
+    Icon = "refresh-cw",
     Callback = function()
         loadstring(game:HttpGet("https://raw.githubusercontent.com/ringtaa/castletpfast.github.io/refs/heads/main/FASTCASTLE.lua"))()
     end,
