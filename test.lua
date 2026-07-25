@@ -68,7 +68,7 @@ Tabs.Jump:Section({
 })
 
 Tabs.Jump:Button({
-    Title = "Playable Guards Auto Shoot",
+    Title = "Auto Dodge",
     IconAlign = "Left",
     Icon = "crosshair",
     Callback = function()
