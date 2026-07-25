@@ -68,7 +68,7 @@ Tabs.Jump:Section({
 })
 
 Tabs.Jump:Button({
-    Title = "Auto Dodge",
+    Title = "Auto Dodge (Hider)",
     IconAlign = "Left",
     Icon = "crosshair",
     Callback = function()
